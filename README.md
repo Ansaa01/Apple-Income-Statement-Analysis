@@ -154,7 +154,7 @@ Assumptions and Caveats
 
 ---
 
-- See the web scrapping and my cleaning and analysis in this Jupyter Notebook.
+- See the web scrapping and my cleaning and analysis in [this Jupyter Notebook](https://github.com/Ansaa01/Apple-Income-StatementAnalysis/blob/main/Apple%20Income%20Statement.ipynb).
 - See my Tableau Dashboard in [this file](https://public.tableau.com/app/profile/afua.ansaa.amankwaah/viz/ApplesIncomeStatementAnalysis/Dashboard3).
 - For more of my projects and data journey, visit [my portfolio website and reach out!](https://www.notion.so/Hey-there-I-am-Ansaa-16041da5e7d080b0a6a6e14d7a65a71d?pvs=21)
 
