@@ -73,11 +73,13 @@ In contrast, **Cost of Revenue** has a weaker negative correlation of **-0.31
 ***
 
 **How has our profitability evolved over the years, and what factors are driving changes in Operating Income and Operating Margin?**
-Year	Operating Margin (%)	Operating Income (Sum)	Insights
-2024	31.150	123,216,000	Highest profitability. The increase in both Operating Margin and Operating Income suggests improved cost efficiency, revenue growth, or a combination of both.
-2023	29.82	114,301,000	Profitability decline. Operating Income dropped despite a stable margin, indicating possible revenue stagnation or higher non-operating costs.
-2022	30.289	119,437,000	Recovery year. Higher Operating Income than 2023 despite a similar margin, suggesting better cost control or revenue rebound.
-2021	29.782	108,949,000	Lowest profitability. Indicates higher costs, lower revenue, or operational inefficiencies compared to later years.
+| Year | Operating Margin (%) | Operating Income (Sum) | Insights |
+|------|----------------------|------------------------|----------|
+| 2024 | 31.150               | 123,216,000            | **Highest profitability**: The increase in both Operating Margin and Operating Income suggests improved cost efficiency, revenue growth, or a combination of both. |
+| 2023 | 29.82                | 114,301,000            | **Profitability decline**: Operating Income dropped despite a stable margin, indicating possible revenue stagnation or higher non-operating costs. |
+| 2022 | 30.289               | 119,437,000            | **Recovery year**: Higher Operating Income than 2023 despite a similar margin, suggesting better cost control or revenue rebound. |
+| 2021 | 29.782               | 108,949,000            | **Lowest profitability**: Indicates higher costs, lower revenue, or operational inefficiencies compared to later years. |
+
 
 Profitability is improving overall, with 2024 showing the best performance. 2023 was a setback year, with a dip in Operating Income despite a stable margin, possibly due to higher fixed costs or external economic factors. 2022 marked a rebound, with better income despite a lower margin than 2024.  2021 had the weakest profit performance, but steady improvements have been made.
 
