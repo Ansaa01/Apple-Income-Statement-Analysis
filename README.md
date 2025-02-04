@@ -89,12 +89,14 @@ Profitability is improving overall, with 2024 showing the best performance. 2023
 
 **How has the change in Cost of Revenue impacted our Operating Margin rankings over time?**
 
-Insights from Cost of Revenue % Difference and Operating Margin Rank:
-Year	% Difference in Cost of Revenue	Rank of Avg Operating Margin	Insights
-2021	0.0%	4 (Lowest)	Baseline year. No change in Cost of Revenue, but Operating Margin was the weakest.
-2022	+4.96%	2	Increase in Cost of Revenue, yet a strong Operating Margin ranking.Suggests revenue growth or better cost efficiency absorbed the higher costs.
-2023	+0.27%	3	Slight cost increase, but Operating Margin ranking declined. Indicates margin pressures, potentially due to revenue stagnation or higher fixed costs.
-2024	-0.413%	1 (Highest)	Cost of Revenue decreased, and Operating Margin improved. Shows strong cost control, revenue growth, or both driving higher profitability.
+| Year | % Difference in Cost of Revenue | Rank of Avg Operating Margin | Insights |
+|------|---------------------------------|------------------------------|----------|
+| 2021 | 0.0%                            | 4 (Lowest)                   | **Baseline year**: No change in Cost of Revenue, but Operating Margin was the weakest. |
+| 2022 | +4.96%                          | 2                            | Increase in Cost of Revenue, yet a strong Operating Margin ranking. Suggests revenue growth or better cost efficiency absorbed the higher costs. |
+| 2023 | +0.27%                          | 3                            | Slight cost increase, but Operating Margin ranking declined. Indicates margin pressures, potentially due to revenue stagnation or higher fixed costs. |
+| 2024 | -0.413%                         | 1 (Highest)                  | Cost of Revenue decreased, and Operating Margin improved. Shows strong cost control, revenue growth, or both driving higher profitability. |
+
+2024 is the most efficient year, where cost reductions helped Operating Margin rank the highest. 2022 had the biggest cost increase (+4.96%) but still ranked well (2nd), suggesting revenue growth or strong operational efficiency. 2023 had a cost increase (+0.27%) and a weaker margin ranking (3rd), indicating possible revenue stagnation or increased non-operating costs. 2021 had no cost change but the weakest margin rank (4th), suggesting operational inefficiencies at the time.
 
 ![ERD Table](/Data_Visualization/Cost_Difference.jpg)
 
