@@ -8,10 +8,8 @@ Table of Contents
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 - [Insights Deep-Dive](#insights-deep-dive)
-    - [Customer Lifetime Value and Purchase Frequency Trend](#Customer-Lifetime-Value-and-Purchase-Frequency-Trend)
-    - [Review Ratings Trend](#Review-Ratings-Trend)
-    - [Retention Rate Trend](#Retention-Rate-Trend)
-    - [Promo Codes, Distance and Location Trend](#Promo-Codes-Distance-and-Location-Trend)
+    - [Revenue Trend](#Revenue-Trend)
+    - [Operating Margin Trend](#Operating-Margin-Trend)
 - [Recommendations](#recommendations)
 - [Assumptions and Caveats](#clarifying-questions-assumptions-and-caveats)
 
@@ -35,13 +33,16 @@ Python is used to answer key stakeholder questions and further visualization of 
  ### **Revenue Trend**
 
  Growth Percentages are calculated as:
-
+ ![ERD Table](/Data_Visualization/Growth_Formulas.jpg)
 
  **How has year-over-year (YoY) revenue growth trended, and what factors explain fluctuations?**
 
 The top 4 factors influencing Year-over-Year (YoY) revenue growth are Gross Profit Growth, Cost Growth, Operating Income Growth, and Net Income Growth. Notably, Gross Profit Growth has the highest correlation (0.98), indicating that pricing strategies and cost efficiency are key revenue drivers. Cost Growth (0.97), while positively correlated, suggests that cost management is crucial for sustaining profitability. Operating Income Growth (0.91) reflects operational efficiency, with streamlined processes boosting revenue. Net Income Growth (0.85), though important, shows a weaker correlation, likely due to tax strategies and one-time expenses. These insights highlight the importance of balancing profitability and efficiency to drive sustainable revenue growth.
 
+ ![ERD Table](/Data_Visualization/Revenue_Growth_Vs_Others.png)
 
+Total revenue percentage is calculated as:
+ ![ERD Table](/Data_Visualization/Total_Revenue_Percentage.jpg)
 
 **What percentage of total revenue is contributed by each metrics ?**
 
@@ -49,10 +50,13 @@ The top 4 factors influencing Year-over-Year (YoY) revenue growth are Gross Pro
 
 On the lower end, **Other Income Expense** contributes a minimal **-0.03%**, while **Tax Rate for Calls**, **Diluted EPS**, and **Basic EPS** all show **0%** due to the absence of relevant data. **Net Interest Income** contributes a small **0.01%**, making its mark though it remains minor.
 
+![ERD Table](/Data_Visualization/Revenue_Percentage.jpeg)
 
 ### **Operating Margin Trend**
 
 Operating Margin is calculated as:
+
+![ERD Table](/Data_Visualization/Operating_Margin.jpg)
 
 *** 
 
@@ -61,7 +65,10 @@ Operating Margin is calculated as:
 **Operating Expenses** emerge as the most significant driver of **Operating Margin (%)**, showing a strong positive correlation of **+0.665**. This suggests that increased spending in this area may contribute to higher profitability, likely through strategic investments in efficiency and growth.
 
 In contrast, **Cost of Revenue** has a weaker negative correlation of **-0.310**, indicating that higher production or service costs reduce profitability. Optimizing production efficiency and cost management will be key to improving margins.
-### **Retention Rate Trend**
+
+![ERD Table](/Data_Visualization/Green_Correlation_.png)
+![ERD Table](/Data_Visualization/iRed_Cost_Of_Revenue.png)
+
 
 ***
 
@@ -73,7 +80,8 @@ Year	Operating Margin (%)	Operating Income (Sum)	Insights
 2021	29.782	108,949,000	Lowest profitability. Indicates higher costs, lower revenue, or operational inefficiencies compared to later years.
 
 Profitability is improving overall, with 2024 showing the best performance. 2023 was a setback year, with a dip in Operating Income despite a stable margin, possibly due to higher fixed costs or external economic factors. 2022 marked a rebound, with better income despite a lower margin than 2024.  2021 had the weakest profit performance, but steady improvements have been made.
-### Promo Codes, Distance and Location Trend
+
+![ERD Table](/Data_Visualization/Income_Margin.jpg)
 
 ***
 
@@ -86,9 +94,12 @@ Year	% Difference in Cost of Revenue	Rank of Avg Operating Margin	Insights
 2023	+0.27%	3	Slight cost increase, but Operating Margin ranking declined. Indicates margin pressures, potentially due to revenue stagnation or higher fixed costs.
 2024	-0.413%	1 (Highest)	Cost of Revenue decreased, and Operating Margin improved. Shows strong cost control, revenue growth, or both driving higher profitability.
 
+![ERD Table](/Data_Visualization/Cost_Difference.jpg)
+
 
 # Overall Dashboard of Trends
 
+![ERD Table](/Data_Visualization/Dahboard.jpg)
 
 ## Recommendations
 
